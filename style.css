@@ -59,3 +59,28 @@ body {
     color:black;
     font-family: 'Montserrat', sans-serif;
 }
+
+.apresentacao__links {
+   position: relative; /* Define o posicionamento relativo */
+   text-align: center; /* Centraliza o conteúdo dentro do elemento pai */
+}
+
+.curiosidades {
+   position: absolute; /* Define o posicionamento absoluto em relação ao link */
+   top: 100%; /* Posiciona a lista abaixo do link */
+   left: 46%; /* Centraliza a lista horizontalmente em relação ao elemento pai */
+   transform: translateX(-50%); /* Move a lista para a esquerda em 50% da sua própria largura */
+   list-style-type: none;
+   padding: 0;
+   margin-top: 30px; /* Adiciona um espaço entre o link e a lista */
+   font-family: 'Montserrat', sans-serif;
+}
+
+.curiosidades li {
+   margin-bottom: 30px;
+   color: #ffffff;
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+
